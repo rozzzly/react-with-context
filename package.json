@@ -7,7 +7,7 @@
   "scripts": {
     "test": "jest",
     "build": "babel src -d bin",
-    "prepublish": "npm build && npm test"
+    "prepublish": "npm run build && npm run test"
   },
   "files": [
     "WithContext.d.ts",
